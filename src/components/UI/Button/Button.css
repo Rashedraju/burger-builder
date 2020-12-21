@@ -1,0 +1,41 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 5px;
+  font-weight: bold;
+  display: block;
+  margin: 5px auto;
+}
+.Button:disabled {
+  cursor: default;
+  background-color: transparent;
+}
+@media (max-width: 500px) {
+  .Button {
+    padding: 5px;
+  }
+}
+@media (max-width: 300px) {
+  .Button {
+    padding: 2px;
+  }
+}
+/* .Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+} */
+
+.Success {
+  width: 50%;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #5c9210;
+}
+
+.Danger {
+  color: #944317;
+}

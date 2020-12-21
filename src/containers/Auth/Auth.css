@@ -1,0 +1,14 @@
+.Controls {
+  width: 50%;
+  box-shadow: 0 1px 5px #aaa;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  .Controls {
+    width: 95%;
+  }
+}
